@@ -3,14 +3,9 @@ class: center, middle, title-slide
 # the gang makes a coffee
 
 ---
+class: center, middle,
 
 # But how ?
-
-1. The Gantt Chart
-2. Identifying your tasks
-3. Dependencies
-4. Splitting tasks
-5. Time estimates
 
 ---
 
@@ -105,18 +100,38 @@ class: right-float-image-1
 
 ---
 
+class: center-image-resize-1
+
 # Putting it all together
 
+![](images/excel_1.png)
 
+---
 
-# References
+class: center-image-resize-2
+
+# Final Product !
+
+![](images/chart.png)
+
+---
+
+# References and Images
 
 
 [1]: https://www.jstor.org/stable/255537
-[2]: https://web.archive.org/web/20131126152919/http://www-public.it-sudparis.eu:80/~gibson/Teaching/CSC7003/ReadingMaterial/Wilson03.pdf  
+[2]: https://web.archive.org/web/20131126152919/http://www-public.it-sudparis.eu:80/~gibson/Teaching/CSC7003/ReadingMaterial/Wilson03.pdf
 
+### Articles
 
 ```md 
 (1) The Harmonogram of Karol Adamiecki. The Academy of Management Journal. Vol. 18, (1975), pp. 358-364. Found at: <https://www.jstor.org/stable/255537>
 (2) Gantt charts: A centenary appreciation. European Journal of Operational Research. Vol. 149, (2003), pp. 430–437. Found at: <https://web.archive.org/web/20131126152919/http://www-public.it-sudparis.eu:80/~gibson/Teaching/CSC7003/ReadingMaterial/Wilson03.pdf>
+```
+
+### Images
+
+```md
+Henry Gantt: https://en.wikipedia.org/wiki/Henry_Gantt#/media/File:Henry_L._Gantt.jpg
+Coffee Cup: https://image.freepik.com/free-icon/coffee-cup-outline_318-39738.jpg
 ```
