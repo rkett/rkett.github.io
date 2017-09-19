@@ -7,7 +7,7 @@
  * As overlap will occur, and conflicts will also occur. */
 
  .default-colour {
- 	background: #dbd4d0;
+ 	background: #dbf1f9;
  }
 
  .default-font {
@@ -20,9 +20,11 @@
  } 
 
  .default-links a:visited {
- 	color: #b20065;
+ 	color: #8A004E;
  }
 
  .default-links a:hover {
- 	color: #9b6545;
+ 	color: #153D66;
  }
+
+/* https://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it */
