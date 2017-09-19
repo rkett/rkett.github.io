@@ -25,4 +25,7 @@
 
  .default-links a:hover {
  	color: #9b6545;
+
+ 	/* for git hard reset 
+ 		this change will stay */
  }
