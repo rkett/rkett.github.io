@@ -36,7 +36,7 @@ Check Settings
 $ git config user.name
 John Doe
 ```
-
+TEST FOR GIT
 ---
 
 # References and Images
