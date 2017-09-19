@@ -1,0 +1,28 @@
+/* Custom CSS */
+
+/* The way I've designed the subfolder structure is pretty bad,
+ * as it stands, custom.css in the rkett.github.io folder will only
+ * try to apply to pages not contained in CIS3250/.
+ * Realistically, I should re-factor to make custom.css only a single file.
+ * As overlap will occur, and conflicts will also occur. */
+
+ .default-colour {
+ 	background: #dbd4d0;
+ }
+
+ .default-font {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+ }
+
+ .default-links a:link {
+ 	color: #421a03;
+ } 
+
+ .default-links a:visited {
+ 	color: #b20065;
+ }
+
+ .default-links a:hover {
+ 	color: #9b6545;
+ }
