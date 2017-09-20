@@ -2,39 +2,62 @@ class: center, middle, title-slide
 
 ![](https://git-scm.com/images/logo@2x.png)
 
----
-class: center, middle,
-
-# agenda
+> *(multiplayer notepad)*
 
 ---
 
-# git references
+# Where to get; what to use.
 
-### Command-line tool (CLT) Location and Information Hub.
-> - https://git-scm.com/
+### Command-line tool (CLT) Location and Information Hub:
+> https://git-scm.com/
 
-### Reference Book (Very useful.)
-> - https://git-scm.com/book/en/v2
+### Reference Book:
+> https://git-scm.com/book/en/v2
+
+### Extra:
+> https://rkett.github.io/
 
 ---
 
 # Setup environment
 
-Configure Name and Email
-
-```git
+###Configure Name and Email
+```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
 
-- Note: This should be done after you have created a github account.
+> **Note**: This should be done after you have created a github account.
 
-Check Settings
-
-```git
+### Check Settings
+```bash
 $ git config user.name
 John Doe
+$ git config user.email
+johndoe@example.com
+```
+
+---
+
+# Creating a local repo: cloning.
+
+```bash
+$ git clone [url]
+```
+
+> **Note**: Most of you will only need to use **git clone** to copy your repo. from your team github repo. to your local working directory. However, know that **git init** is also possible, but significantly more work.
+
+### ex.
+
+```bash
+$ git clone https://github.com/rkett/rkett.github.io.git myfirstrepo
+Cloning into 'myfirstrepo'...
+remote: Counting objects: 89, done.
+remote: Compressing objects: 100% (57/57), done.
+remote: Total 89 (delta 24), reused 85 (delta 20), pack-reused 0
+Unpacking objects: 100% (89/89), done.
+$ ls
+Labs		myfirstrepo
 ```
 
 ---
