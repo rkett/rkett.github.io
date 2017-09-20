@@ -6,8 +6,9 @@
  * Realistically, I should re-factor to make custom.css only a single file.
  * As overlap will occur, and conflicts will also occur. */
 
+/* Classes */
  .default-colour {
- 	background: #dbf1f9;
+ 	background: #FFFFFF;
  }
 
  .default-font {
@@ -26,5 +27,23 @@
  .default-links a:hover {
  	color: #153D66;
  }
+
+.default-div-padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.center-div {
+     margin: 0 auto;
+     width: 800px; 
+}
+
+/* IDs */
+#list-div-color {
+	background: #a8c6f4;
+	border-radius: 15px;
+}
 
 /* https://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it */
