@@ -40,10 +40,24 @@
      width: 800px; 
 }
 
+.default-portrait {
+	border-radius: 100%;
+	border-width: 4px;
+	border-style: solid;
+}
+
+.default-emoji-resize {
+	font-size: 50px;
+}
+.default-div-padding {
+	padding: 20px 20px 20px 20px;
+}
+
 /* IDs */
 #list-div-color {
 	background: #a8c6f4;
 	border-radius: 15px;
 }
+
 
 /* https://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it */
