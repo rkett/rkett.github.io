@@ -188,6 +188,8 @@ Unmodifiying a file:
 $ git checkout -- [file]
 ```
 
+**NOTE**: Using **git checkout** like so *WILL* remove the changes you've made to a file (including an overwrite of the file). Be careful when using it like so. Also, be extra careful when using any **git reset** command/flag/option. It can lead to headaches.
+
 ---
 
 # References and Images
