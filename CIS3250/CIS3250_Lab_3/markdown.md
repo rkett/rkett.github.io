@@ -99,7 +99,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 using, 
 
 ```bash
-git add [file]
+$ git add [file]
 ```
 
 we may *stage* the modified file. 
@@ -116,6 +116,51 @@ we may *stage* the modified file.
 # Tracking
 
 ### Files **not** tracked will not be staged, or considered for committing.
+
+```bash
+$ echo "hi mom" > track_me.txt
+$ git status
+On branch cis3250-lab-3
+* Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	track_me.txt
+
+* nothing added to commit but untracked files present (use "git add" to track)
+```
+So, when adding new files, always remember to **git add** them.
+
+---
+
+# Atomic Batteries to Power! Turbines to Speed!
+
+### So, you've made changes, they won't last if you don't **commit** to them. 
+
+After staging, you can may use:
+
+```bash
+$ git commit -m "<message goes here>"
+```
+
+This creates a fallback point, and a log of all changes you've **staged** up to this point into a commit entry:
+
+```bash
+$ git commit -m "Added info. to 'commit' slide for lab3."
+* [cis3250-lab-3 cb90feb] Added info. to 'commit' slide for lab3.
+ 1 file changed, 39 insertions(+), 1 deletion(-)
+ ```
+
+---
+
+# I've made a terrible mistake.
+
+Amending a commit
+
+```bash
+$ git add CIS3250/
+$ git commit --amend
+```
+
 
 ---
 # References and Images
