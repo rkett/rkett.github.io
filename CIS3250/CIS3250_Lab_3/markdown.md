@@ -158,10 +158,38 @@ Amending a commit
 
 ```bash
 $ git add CIS3250/
+$ git commit -m "Test for --amend."
+* [cis3250-lab-3 d632955] Test for --amend.
+```
+
+*changes made:*
+
+```bash
+$ git add CIS3250/
 $ git commit --amend
+* [cis3250-lab-3 4eabce1] Test for --amend.
+ Date: Thu Sep 21 20:48:03 2017 -0400
+ 1 file changed, 1 deletion(-)
 ```
 
 ---
+
+# I've made a terrible mistake, again.
+
+Unstaging a file:
+
+```bash
+$ git reset HEAD [file]
+```
+
+Unmodifiying a file:
+
+```bash
+$ git checkout -- [file]
+```
+
+---
+
 # References and Images
 
 
