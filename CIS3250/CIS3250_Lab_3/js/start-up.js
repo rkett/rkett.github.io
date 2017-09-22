@@ -1,3 +1,4 @@
 var slideshow = remark.create({
-	sourceUrl: 'markdown.md'
+	sourceUrl: 'markdown.md',
+	highlightLines: 'true'
 });

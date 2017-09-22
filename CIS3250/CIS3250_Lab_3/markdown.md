@@ -96,7 +96,21 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
+using, 
 
+```bash
+git add [file]
+```
+
+we may *stage* the modified file. 
+
+```bash
+* Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   CIS3250/CIS3250_Lab_3/markdown.md
+```
+			
 ---
 
 # References and Images
