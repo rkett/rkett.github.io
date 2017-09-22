@@ -220,9 +220,39 @@ $ git remote show origin
 
 # Beam me up Scotty!
 
-Now that we have made changes and committed them, let's **push** them into our *remote* branch.
+Now that we have made changes and committed them, let's **push** them into our *remote* branch:
+
+```bash
+$ git push 
+```
+
+using this:
+
+```bash
+$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 621 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/rkett/rkett.github.io
+* 2c4e6fd..db1d40e  cis3250-lab-3 -> cis3250-lab-3
+```
+
+You can even view this change here:
+
+```bash
+https://github.com/rkett/rkett.github.io/commit/db1d40e112e780055aacba2e850fb9192251a013
+```
 
 ---
+
+
+
+---
+
+
 # References and Images
 
 
