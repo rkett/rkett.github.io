@@ -161,7 +161,6 @@ $ git add CIS3250/
 $ git commit --amend
 ```
 
-
 ---
 # References and Images
 
