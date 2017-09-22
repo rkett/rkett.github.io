@@ -210,12 +210,19 @@ origin	https://github.com/rkett/rkett.github.io (fetch)
 origin	https://github.com/rkett/rkett.github.io (push)
 ```
 
-A $remote$'s are then server-side branches that one can $fetch$ from and $push$ to.
+*Remote*'s are then server-side branches that one can *fetch* from and *push* to. For an indepth picture try: 
 
-
+```bash
+$ git remote show origin
+```
 
 ---
 
+# Beam me up Scotty!
+
+Now that we have made changes and committed them, let's **push** them into our *remote* branch.
+
+---
 # References and Images
 
 
