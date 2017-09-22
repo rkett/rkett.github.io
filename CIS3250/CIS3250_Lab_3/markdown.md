@@ -6,6 +6,13 @@ class: center, middle, title-slide
 
 ---
 
+# today: crash course on git and github
+
+### By the end you should know how to:
+
+---
+
+
 # Where to get; what to use.
 
 ### Command-line tool (CLT) Location and Information Hub:
