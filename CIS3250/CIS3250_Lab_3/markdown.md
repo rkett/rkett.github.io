@@ -87,7 +87,7 @@ New files or file alterations are tracked by git.
 ```bash
 $ git status
 On branch cis3250-lab-3
-Changes not staged for commit:
+* Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
@@ -113,6 +113,11 @@ we may *stage* the modified file.
 			
 ---
 
+# Tracking
+
+### Files **not** tracked will not be staged, or considered for committing.
+
+---
 # References and Images
 
 
