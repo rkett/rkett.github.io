@@ -10,6 +10,17 @@ class: center, middle, title-slide
 
 ### By the end you should know how to:
 
+- setup your local git 
+- clone a repo. from a server
+- stage/unstage files
+- commit changes
+- amend commits
+- push commits
+- add/switch to a branch
+- setup a remote for branch
+- make changes to said branch
+- push changes to remote
+
 ---
 
 
