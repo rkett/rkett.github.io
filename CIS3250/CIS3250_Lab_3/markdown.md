@@ -192,6 +192,30 @@ $ git checkout -- [file]
 
 ---
 
+class: center, middle,
+
+![](https://tctechcrunch2011.files.wordpress.com/2013/01/github-logo.png?w=450&h=400&crop=1)
+
+---
+
+# Remotes
+
+Github allows you to create and access a **remote** git branch. Cloning the repo. as we did earlier, created a git index which includes the *automatic* assignment of your **remotes**.
+
+Visually,
+
+```bash
+$ git remote -v
+origin	https://github.com/rkett/rkett.github.io (fetch)
+origin	https://github.com/rkett/rkett.github.io (push)
+```
+
+A $remote$'s are then server-side branches that one can $fetch$ from and $push$ to.
+
+
+
+---
+
 # References and Images
 
 
@@ -208,6 +232,6 @@ $ git checkout -- [file]
 ### Images
 
 ```md
-Henry Gantt: https://en.wikipedia.org/wiki/Henry_Gantt#/media/File:Henry_L._Gantt.jpg
-Coffee Cup: https://image.freepik.com/free-icon/coffee-cup-outline_318-39738.jpg
+Git logo: https://git-scm.com/images/logo@2x.png
+Github Logo: https://tctechcrunch2011.files.wordpress.com/2013/01/github-logo.png?w=450&h=400&crop=1
 ```
