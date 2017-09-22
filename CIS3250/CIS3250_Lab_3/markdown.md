@@ -80,6 +80,25 @@ Labs		myfirstrepo
 
 ---
 
+# Staging
+
+New files or file alterations are tracked by git.
+
+```bash
+$ git status
+On branch cis3250-lab-3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CIS3250/CIS3250_Lab_3/markdown.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+
+---
+
 # References and Images
 
 
