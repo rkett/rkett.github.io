@@ -200,7 +200,7 @@ class: center, middle,
 
 # Remotes
 
-Github allows you to create and access a **remote** git branch. Cloning the repo. as we did earlier, created a git index which includes the *automatic* assignment of your **remotes**.
+Github allows you to create and access a **remote** git. Cloning the repo. as we did earlier, created a git index which includes the *automatic* assignment of your **remotes**.
 
 Visually,
 
@@ -210,7 +210,7 @@ origin	https://github.com/rkett/rkett.github.io (fetch)
 origin	https://github.com/rkett/rkett.github.io (push)
 ```
 
-*Remote*'s are then server-side branches that one can *fetch* from and *push* to. For an indepth picture try: 
+*Remote*'s are then server-side directories that one can *fetch* from and *push* to. For an indepth picture try: 
 
 ```bash
 $ git remote show origin
@@ -218,9 +218,87 @@ $ git remote show origin
 
 ---
 
+# Branching
+
+To create a branch simply use:
+
+```bash
+$ git branch [branch name]
+```
+
+To switch branches use:
+
+```bash
+$ git checkout [branch name]
+```
+
+ex.
+
+```bash
+$ git checkout cis3250-lab-3
+Switched to branch 'cis3250-lab-3'
+* Your branch is up-to-date with 'origin/cis3250-lab-3'.
+```
+
+**Note**: You might notice when you first switch to a branch, you do not get the message about *origin/[branch name]* this is because we must set a *remote* for this local branch. This is done on the next slides.
+
+---
+
+# Branching pt. 2
+
+To see your branches use:
+
+```bash
+$ git branch -v
+* cis3250-lab-3 0cc91ca Merge pull request #1 from rkett/cis3250-lab-3
+  demo          0cc91ca Merge pull request #1 from rkett/cis3250-lab-3
+  master        0cc91ca Merge pull request #1 from rkett/cis3250-lab-3
+  testing       2d74ac0 Removed git test lines from css/custom.css.'
+```
+
+Your shell will tell you wich branch you are currently on, as of now, I am on the *cis3250-lab-3* branch.
+
+To track changes on branches, and to display where each branch is currently pointing:
+
+```bash
+* $ git log --oneline --decorate --graph --all
+o   0cc91ca (HEAD -> cis3250-lab-3, origin/master, origin/cis3250-lab-3, master, demo) Merge pull request #1 from rkett/cis3250-lab-3
+|\  
+| o d750974 Pull request demo.
+|/  
+o 5744792 Added 'push' slide to lab3.
+o db1d40e Finished 'remote's' slide for lab3
+o 2c4e6fd Added images; remote's slide for lab3.
+```
+
+---
+
+# Branching pt. 3
+
+- Branches may be modified and updated in the same way as your singular master branch was previously.
+- Branches however, introduce more complicated working directory conditions.
+
+ex. 
+
+```bash
+$ git checkout cis3250-lab-3
+Switched to branch 'cis3250-lab-3'
+...
+$ echo 'meow' > cat.txt
+$ ls
+* CIS3250		cat.txt		css		images		index.html
+$ git checkout master 
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+$ ls
+* CIS3250		css		images		index.html
+```
+
+---
+
 # Beam me up Scotty!
 
-Now that we have made changes and committed them, let's **push** them into our *remote* branch:
+As an important aside, we must learn how to **push** our changes to our remote git: 
 
 ```bash
 $ git push 
@@ -248,23 +326,37 @@ https://github.com/rkett/rkett.github.io/commit/db1d40e112e780055aacba2e850fb919
 
 ---
 
-PULL REQUEST TEXT
+# Pushing from a branch.
+
+If you have created a branch, switched to it, made changes, staged those changes and finally committed them, you may want to think about showing your peers what changes you've made on your branch. However, when you try this for the first time notice:
+
+```bash
+$ git push
+fatal: The current branch demo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin demo
+```
+
+When using that supplied command:
+
+```bash
+$  git push --set-upstream origin demo
+…
+To https://github.com/rkett/rkett.github.io
+ * [new branch]      demo -> demo
+Branch demo set up to track remote branch demo from origin.
+```
+
+You may see this here:
+
+```bash
+https://github.com/rkett/rkett.github.io/branches
+```
 
 ---
 
-
 # References and Images
-
-
-[1]: https://www.jstor.org/stable/255537
-[2]: https://web.archive.org/web/20131126152919/http://www-public.it-sudparis.eu:80/~gibson/Teaching/CSC7003/ReadingMaterial/Wilson03.pdf
-
-### Articles
-
-```md 
-(1) The Harmonogram of Karol Adamiecki. The Academy of Management Journal. Vol. 18, (1975), pp. 358-364. Found at: <https://www.jstor.org/stable/255537>
-(2) Gantt charts: A centenary appreciation. European Journal of Operational Research. Vol. 149, (2003), pp. 430–437. Found at: <https://web.archive.org/web/20131126152919/http://www-public.it-sudparis.eu:80/~gibson/Teaching/CSC7003/ReadingMaterial/Wilson03.pdf>
-```
 
 ### Images
 
