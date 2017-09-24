@@ -200,7 +200,7 @@ class: center, middle,
 
 # Remotes
 
-Github allows you to create and access a **remote** git branch. Cloning the repo. as we did earlier, created a git index which includes the *automatic* assignment of your **remotes**.
+Github allows you to create and access a **remote** git. Cloning the repo. as we did earlier, created a git index which includes the *automatic* assignment of your **remotes**.
 
 Visually,
 
@@ -210,11 +210,80 @@ origin	https://github.com/rkett/rkett.github.io (fetch)
 origin	https://github.com/rkett/rkett.github.io (push)
 ```
 
-*Remote*'s are then server-side branches that one can *fetch* from and *push* to. For an indepth picture try: 
+*Remote*'s are then server-side directories that one can *fetch* from and *push* to. For an indepth picture try: 
 
 ```bash
 $ git remote show origin
 ```
+
+---
+
+# Branching
+
+To create a branch simply use:
+
+```bash
+$ git branch [branch name]
+```
+
+To switch branches use:
+
+```bash
+$ git checkout [branch name]
+```
+
+ex.
+
+```bash
+$ git checkout cis3250-lab-3
+Switched to branch 'cis3250-lab-3'
+* Your branch is up-to-date with 'origin/cis3250-lab-3'.
+```
+
+**Note**: You might notice when you first switch to a branch, you do not get the message about *origin/[branch name]* this is because we must set a *remote* for this local branch. This is done on the next slides.
+
+---
+
+# Branching pt. 2
+
+To see your branches use:
+
+```bash
+$ git branch -v
+* cis3250-lab-3 0cc91ca Merge pull request #1 from rkett/cis3250-lab-3
+  demo          0cc91ca Merge pull request #1 from rkett/cis3250-lab-3
+  master        0cc91ca Merge pull request #1 from rkett/cis3250-lab-3
+  testing       2d74ac0 Removed git test lines from css/custom.css.'
+```
+
+Your shell will tell you wich branch you are currently on, as of now, I am on the *cis3250-lab-3* branch.
+
+To track changes on branches, and to display where each branch is currently pointing:
+
+```bash
+* $ git log --oneline --decorate --graph --all
+o   0cc91ca (HEAD -> cis3250-lab-3, origin/master, origin/cis3250-lab-3, master, demo) Merge pull request #1 from rkett/cis3250-lab-3
+|\  
+| o d750974 Pull request demo.
+|/  
+o 5744792 Added 'push' slide to lab3.
+o db1d40e Finished 'remote's' slide for lab3
+o 2c4e6fd Added images; remote's slide for lab3.
+```
+
+---
+
+# Branching pt. 3
+
+- Branches may be modified and updated in the same way as your singular master branch was previously.
+- Branches however, introduce more complicated working directory conditions.
+
+ex. 
+
+```bash
+```
+
+
 
 ---
 
