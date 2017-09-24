@@ -281,6 +281,14 @@ o 2c4e6fd Added images; remote's slide for lab3.
 ex. 
 
 ```bash
+$ echo 'meow' > cat.txt
+$ ls
+* CIS3250		cat.txt		css		images		index.html
+$ git checkout master 
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+$ ls
+* CIS3250		css		images		index.html
 ```
 
 
