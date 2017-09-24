@@ -281,6 +281,9 @@ o 2c4e6fd Added images; remote's slide for lab3.
 ex. 
 
 ```bash
+$ git checkout cis3250-lab-3
+Switched to branch 'cis3250-lab-3'
+...
 $ echo 'meow' > cat.txt
 $ ls
 * CIS3250		cat.txt		css		images		index.html
@@ -291,13 +294,11 @@ $ ls
 * CIS3250		css		images		index.html
 ```
 
-
-
 ---
 
 # Beam me up Scotty!
 
-Now that we have made changes and committed them, let's **push** them into our *remote* branch:
+As an important aside, we must learn how to **push** our changes to our remote git: 
 
 ```bash
 $ git push 
@@ -325,23 +326,37 @@ https://github.com/rkett/rkett.github.io/commit/db1d40e112e780055aacba2e850fb919
 
 ---
 
-PULL REQUEST TEXT
+# Pushing from a branch.
+
+If you have created a branch, switched to it, made changes, staged those changes and finally committed them, you may want to think about showing your peers what changes you've made on your branch. However, when you try this for the first time notice:
+
+```bash
+$ git push
+fatal: The current branch demo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin demo
+```
+
+When using that supplied command:
+
+```bash
+$  git push --set-upstream origin demo
+…
+To https://github.com/rkett/rkett.github.io
+ * [new branch]      demo -> demo
+Branch demo set up to track remote branch demo from origin.
+```
+
+You may see this here:
+
+```bash
+https://github.com/rkett/rkett.github.io/branches
+```
 
 ---
 
-
 # References and Images
-
-
-[1]: https://www.jstor.org/stable/255537
-[2]: https://web.archive.org/web/20131126152919/http://www-public.it-sudparis.eu:80/~gibson/Teaching/CSC7003/ReadingMaterial/Wilson03.pdf
-
-### Articles
-
-```md 
-(1) The Harmonogram of Karol Adamiecki. The Academy of Management Journal. Vol. 18, (1975), pp. 358-364. Found at: <https://www.jstor.org/stable/255537>
-(2) Gantt charts: A centenary appreciation. European Journal of Operational Research. Vol. 149, (2003), pp. 430–437. Found at: <https://web.archive.org/web/20131126152919/http://www-public.it-sudparis.eu:80/~gibson/Teaching/CSC7003/ReadingMaterial/Wilson03.pdf>
-```
 
 ### Images
 
