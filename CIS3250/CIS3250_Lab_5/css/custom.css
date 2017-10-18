@@ -1,0 +1,55 @@
+
+/* Images */
+.portrait img {
+	width: 250px; 
+    height: 250px;
+    float: right;
+    border-radius: 100%;
+    padding-left: 10px;
+}
+
+.right-float-image-1 img {
+	width: 400px; 
+    height: 400px;
+    float: right;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.left-float-image-1 img {
+	width: 270px; 
+    height: 270px;
+    float: left;
+    border-radius: 25px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.left-float-image img {
+	width: 300px; 
+    height: 400px;
+    float: left;
+    border-radius: 25px;
+}
+
+.center-image-resize-1 img {
+    width: 700px;
+    height: 200px;
+    float: center;
+    padding-top: 50px;
+}
+
+.center-image-resize-2 img {
+    width: 600px;
+    height: 400px;
+    float: center;
+    padding-left: 80px;
+}
+
+.left-image-resize-3 img {
+    width: 800px;
+    height: 500px;
+    float: left;
+    padding-top: 10px;
+}
