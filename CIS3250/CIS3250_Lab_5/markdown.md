@@ -1,8 +1,41 @@
 class: center, middle, title-slide
 
-![](https://git-scm.com/images/logo@2x.png)
+# Git Continued: Merging and Conflicts
 
-> *(multiplayer notepad)*
+---
+
+# Topic Overview
+
+- Local Merging
+- Local Rebasing
+- Diff
+- Merge/Rebase Conflicts w/ Resolution
+- Pull Requests
+
+---
+
+# Quick Recap of Last Git Lab
+
+## Commands to remember:
+- Making a branch
+
+```bash
+$ git branch <branch_name>
+```
+
+- Switching to a branch
+
+```bash
+$ git checkout <branch_name>
+```
+
+- Shortcut:
+
+```bash
+git checkout -b <branch_name>
+```
+
+> This is equivalent to creating and switching to a branch at the same time !
 
 ---
 
@@ -11,7 +44,6 @@ class: center, middle, title-slide
 ### Images
 
 ```md
-Git logo: https://git-scm.com/images/logo@2x.png
-Github Logo: https://tctechcrunch2011.files.wordpress.com/2013/01/github-logo.png?w=450&h=400&crop=1
+
 ```
 
