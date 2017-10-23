@@ -108,3 +108,17 @@
     float: center;
     padding-left: 80px;
 }
+
+/* Lab 5 Image Resizes */
+.left-image-resize-3 img {
+    width: 800px;
+    height: 500px;
+    float: left;
+    padding-top: 10px;
+}
+.left-image-resize-3 img {
+    width: 800px;
+    height: 500px;
+    float: left;
+    padding-top: 10px;
+}
