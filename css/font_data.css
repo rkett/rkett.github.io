@@ -15,7 +15,13 @@ h1, h2, h3 {
 	font-family: 'Ubuntu Mono'; 
 }
 
+/* Lab 2 Title Slide */
 .title-slide {
 	color: white;
 	background-color: black;
+}
+
+/* Lab 3 Title Slide */
+.title-slide-lab3 {
+	background-color: #F3D8AC;
 }
