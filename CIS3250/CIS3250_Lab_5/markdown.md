@@ -398,4 +398,10 @@ class: left-image-resize-3
 
 ![](images/pullcomp.png)
 
+---
+
+class: center, middle
+
+[Home Page]:https://rkett.github.io/
+[Home Page]
 
