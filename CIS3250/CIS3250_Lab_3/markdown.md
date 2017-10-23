@@ -1,4 +1,4 @@
-class: center, middle, title-slide
+class: center, middle, title-slide-lab3
 
 ![](https://git-scm.com/images/logo@2x.png)
 

@@ -1,4 +1,4 @@
-class: center, middle, title-slide
+class: center, middle, title-slide-lab5
 
 # Git Continued: Merging and Conflicts
 
