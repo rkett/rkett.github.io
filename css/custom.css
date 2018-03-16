@@ -1,69 +1,117 @@
-/* Custom CSS */
+/*******************************************
+* Custom CSS Designed for rkett.github.io.
+* ----
+* Modified: 03/19/2018
+********************************************/
 
-/* The way I've designed the subfolder structure is pretty bad,
- * as it stands, custom.css in the rkett.github.io folder will only
- * try to apply to pages not contained in CIS3250/.
- * Realistically, I should re-factor to make custom.css only a single file.
- * As overlap will occur, and conflicts will also occur. */
+/*******************************************
+* Custom Classes and Custom Selectors were
+* designed to be used by all html pages, 
+* which are excluded from "presentations".
+* ----
+* Modified: 03/19/2018
+********************************************/
 
-/* Classes */
- .default-colour {
- 	background: #FFFFFF;
- }
-
- .default-font {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   	font-weight: 300;
- }
-
- .default-links a:link {
- 	color: #421a03;
- } 
-
- .default-links a:visited {
- 	color: #8A004E;
- }
-
- .default-links a:hover {
- 	color: #153D66;
- }
-
-.default-div-padding {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
+/* Custom Selectors */
+a:link { 
+    text-decoration: none;
 }
 
-.center-div {
-     margin: 0 auto;
-     width: 800px; 
+a:active {
+    color: hotpink;
 }
 
-.default-portrait {
-	border-radius: 100%;
-	border-width: 4px;
-	border-style: solid;
+a:visited {
+    color: red;
 }
 
-.default-emoji-resize {
-	font-size: 50px;
+/* Custom Classes */
+.center {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.default-div-padding {
-	padding: 20px 20px 20px 20px;
+.default-bar {
+    width: 100%;
+    height: 90px;
 }
 
-/* IDs */
-#list-div-color {
-	background: #a8c6f4;
-	border-radius: 15px;
+.default-sub-bar {
+    width: 100%;
+    height: 60px;
 }
 
-/* Presentation */
+.default-grad {
+    color: white;
+    background: linear-gradient(#494c51,#303235);
+}
 
+.default-background-color {
+    background-color: #E1E1E1;
+}
+
+.default-padding{
+    padding: 10px;
+}
+
+.default-box-shadow {
+    box-shadow: 0px 3px 10px black;
+}
+
+.default-sub-bar-shadow {
+    box-shadow: 0px 3px 5px black;
+}
+
+.default-margin {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.margin-override {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.bottom-padding {
+    padding-bottom: 10px;
+}
+
+.default-large-image {
+    width: 800px;
+    height: 400px;
+}
+
+.default-div-border {
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252728;
+    color: white;
+    text-align: center;
+}
+
+/*******************************************
+* Custom Presentation Selectors and
+* Custom Presentation Classes are
+* designed to be used by all RemarkJS dept.
+* pages and are exluded from all Custom Classes
+* and Custom Selectors.
+* ----
+* Modified: 03/19/2018
+********************************************/
+
+/* Custom Presentation Classes*/
 .portrait img {
-	width: 250px; 
+    width: 250px; 
     height: 250px;
     float: right;
     border-radius: 100%;
@@ -71,7 +119,7 @@
 }
 
 .right-float-image-1 img {
-	width: 400px; 
+    width: 400px; 
     height: 400px;
     float: right;
     border-radius: 25px;
@@ -80,7 +128,7 @@
 }
 
 .left-float-image-1 img {
-	width: 270px; 
+    width: 270px; 
     height: 270px;
     float: left;
     border-radius: 25px;
@@ -89,7 +137,7 @@
 }
 
 .left-float-image img {
-	width: 300px; 
+    width: 300px; 
     height: 400px;
     float: left;
     border-radius: 25px;
@@ -109,7 +157,6 @@
     padding-left: 80px;
 }
 
-/* Lab 5 Image Resizes */
 .left-image-resize-3 img {
     width: 800px;
     height: 500px;
@@ -122,3 +169,6 @@
     float: left;
     padding-top: 10px;
 }
+
+
+

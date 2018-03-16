@@ -1,61 +1,69 @@
 <!DOCTYPE html>
+<!-- 
+    Index Page of rkett.github.io
+    Created by Ross Kett
+    Modified: 03/19/2018
+ -->
 <html>
-	<head>
-		<meta charset='utf-8'>
-		<link rel="stylesheet" type="text/css" href="css/custom.css" media="screen"/>
-		<link rel="icon" href="images/favicon.ico">
-	</head>
-	<!--  Start of Body -->
-	<body class="default-colour default-font default-links ">
-		<center>
-			<div class="default-emoji-resize">
-				💻
-			</div>
-			<h1>CIS*3250 Lab. Section 3</h1>
-			<p>I will link any presentations and materials that were useful, or could be useful regarding any of the weekly labs onto this website.</p>
-		</center>
-		<div class="center-div"> 
-			<hr>
-			<!-- Presentations using remarkjs -->
-			<h2>Presentations</h2>
-			<ul>
-				<li><a href="CIS3250/CIS3250_Lab_2/lab2_pres.html"> Gantt Chart</a> Introduction and Motivation</li>
-				<li><a href="CIS3250/CIS3250_Lab_3/git_tutorial.html">Git and github</a> Introduction and Walkthrough [Part 1]</li>
-				<li><a href="CIS3250/CIS3250_Lab_5/git_tutorial_2.html">Git and github: Merging/Conflicts</a> Introduction and Walkthrough [Part 2]</li>
-			</ul>
-			<hr>
-			<!-- Outside Link's List(s) -->
-			<h2>Useful Information</h2>
-			<ul>
-				<li><h3>Sublime Text</h3></li>
-				<ul>
-					<li><a href="https://www.sublimetext.com/">Sublime</a> Really strong text editor (especially with package control) (free-ish.)</li>
-					<li><a href="https://packagecontrol.io/">Sublime Package Control</a> Third party package control installer and hub.</li>
-					<li><a href="https://packagecontrol.io/packages/DocBlockr"> DocBlokr Package</a> Auto-block-commenting (good for consistency and formatting.)</li>
-					<li><a href="https://packagecontrol.io/packages/TodoReview"> Todo Review Package</a> Flagging made easy.</li>
-					<li><a href="https://packagecontrol.io/packages/GitGutter"> Git Gutter Package</a> Git diff. visual(s).</li>
-				</ul>
-				<li><h3>Git/Github</h3></li>
-				<ul>
-					<li><a href="https://git-scm.com/" >Git</a> Command line tools and graphical interfaces for git.</li>
-					<li><a href="https://git-scm.com/book/en/v2">Git Pro Book</a> Really useful book (free.)</li>
-					<li><a href="https://github.com" >Github</a> Repo. service; follows git standards (free.)</li>
-					<li><a href="https://guides.github.com/">Github Guides</a> Supplement information; great guide for github.</li>
-					<li><a href="https://help.github.com/"> Github Help Docs</a> Semi-faq and semi-doc. for github related issues.</li>
-				</ul>
-				<li><h3>Command line</h3></li>
-				<ul>
-					<li><a href="https://learnpythonthehardway.org/book/appendixa.html"> Learn the command line</a> Crash course (linux/osx/windows) (free.) 
-					</li>
-				</ul>
-				<li><h3>Atom Text</h3></li>
-				<ul>
-					<li><a href="https://atom.io/">Atom</a> Text editor.</li>
-					<li><a href="https://atom.io/packages/docblockr"> Docblockr</a> Same package but for Atom</li>
-					<li><a href="https://atom.io/packages/todo-show"> Todo Show</a>Like todo review but for Atom.</li>
-				</ul>
-			</ul>
-			<hr>
-		</div>
-	</body>
+    <!--  Start of Head -->
+    <head>
+        <meta charset='utf-8'>
+        <!-- Local Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen"/>
+        <!-- Hot Linked Stylesheets -->
+        <link rel="stylesheet" href="https://unpkg.com/wingcss"/>
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.ico">
+    </head>
+    <!--  Start of Body -->
+    <body class="center default-background-color">
+        <!-- Start of Layout -->
+        <div class="col">
+            <!-- Start of Nav -->
+            <div class="nav">
+                <div class="nav-title">R|<b>K</b></div>
+                <div class="nav-item" href="#">Home</div>
+                <div class="nav-item" href="html/portfolio.html">Portfolio</div>
+                <div class="nav-item" href="#">Contact</div>
+            </div>
+            <!--Start of Top Bar -->
+            <div class="row center margin-override bottom-padding">
+                <span class="center default-bar default-grad default-box-shadow">
+                    <b><h1 class="text-center">How's it going good looking ?</h1></b>
+                </span>
+            </div>
+            <!-- Start of Intro Paragraph -->
+            <div class="col">
+                <p class="default-margin default-div-border"> 
+                    Welcome to my personal website, if you're here, you're likely looking for things
+                    I've done related to design, if you don't need to read a summary about me
+                    head on over to <b>portfolio</b> to get a taste of some recent projects I've done.
+                    If you would like an extended portfolio, or an idea of where I've worked checkout my linkedin <i class="fab fa-linkedin fa-1x" href="#"></i>, gitlab <i class="fab fa-gitlab fa-1x" href="#"></i>, or github <i class="fab fa-github fa-1x" href="#"></i>.
+                </p>
+            </div>
+            <!-- Start of Summary Sub-bar -->
+            <div class="row center margin-override bottom-padding">
+                <span class="center default-sub-bar default-grad default-sub-bar-shadow">
+                        <h3>A quick summary of <b>me</b>.</h3>
+                </span>
+            </div>
+            <!-- Start of Summary -->
+            <div class="col">
+                <ul class="default-div-border default-margin">
+                    <li>Graduate of University of Guelph Nanoscience Bachelor Program.</li>
+                    <li>Enrolled in Mathematics Masters at same institution.</li>
+                    <li>Passion for design in various media: video, photography, and web.</li>
+                    <li>Strong basic math skills</li>
+                    <li>Enjoys writing at a creative and technical level.</li>
+                    <li>Will eat hot peppers 🌶️ for monetary gain.</li>
+                </ul>
+            </div>
+            <!-- Start of Footer -->
+            <footer class="footer">
+                    <p>Designed by: Ross Kett 👾with the help of: <a href="http://usewing.ml/">Wing CSS</a></p>
+            </footer>
+        </div>
+    </body>
+    <!-- Hot Linked Javascript -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </html>
