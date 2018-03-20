@@ -18,7 +18,7 @@ a:link {
 }
 
 a:active {
-    color: hotpink;
+    color: pink;
 }
 
 a:visited {
@@ -57,11 +57,15 @@ a:visited {
 }
 
 .default-box-shadow {
-    box-shadow: 0px 3px 10px black;
+    box-shadow: 0px 3px 10px grey;
 }
 
 .default-sub-bar-shadow {
-    box-shadow: 0px 3px 5px black;
+    box-shadow: 0px 3px 5px grey;
+}
+
+.default-image-shadow {
+    box-shadow: 3px 3px 10px grey;
 }
 
 .default-margin {
@@ -75,7 +79,7 @@ a:visited {
 }
 
 .bottom-padding {
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .default-large-image {
@@ -102,6 +106,37 @@ a:visited {
 .default-icon-padding {
     padding-right: 8px;
 }
+
+.default-image-size {
+    width: 240px;
+    height: 240px;
+}
+
+.default-image-round {
+    border-radius: 20px;
+}
+
+.bottom-padding-extra {
+    padding-bottom: 100px;
+}
+
+.header-margin-override {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.font-awesome-container {
+    text-align: center;
+}
+
+.font-awesome-container .fa {
+    text-shadow: 3px 3px 16px #272634
+}
+
+
+
+
+
 
 /*******************************************
 * Custom Presentation Selectors and
