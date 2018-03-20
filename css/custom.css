@@ -99,6 +99,10 @@ a:visited {
     text-align: center;
 }
 
+.default-icon-padding {
+    padding-right: 8px;
+}
+
 /*******************************************
 * Custom Presentation Selectors and
 * Custom Presentation Classes are
