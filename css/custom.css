@@ -108,8 +108,8 @@ a:visited {
 }
 
 .default-image-size {
-    width: 240px;
-    height: 240px;
+    width: 340px;
+    height: 340px;
 }
 
 .default-image-round {
@@ -132,10 +132,6 @@ a:visited {
 .font-awesome-container .fa {
     text-shadow: 3px 3px 16px #272634
 }
-
-
-
-
 
 
 /*******************************************
