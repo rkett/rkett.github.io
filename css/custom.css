@@ -108,12 +108,12 @@ a:visited {
 }
 
 .default-image-size {
-    width: 240px;
-    height: 240px;
+    width: 340px;
+    height: 340px;
 }
 
 .default-image-round {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .bottom-padding-extra {
@@ -133,10 +133,10 @@ a:visited {
     text-shadow: 3px 3px 16px #272634
 }
 
-
-
-
-
+.default-card-image-size {
+    width: 75%;
+    height: 75%;
+}
 
 /*******************************************
 * Custom Presentation Selectors and
@@ -202,12 +202,10 @@ a:visited {
     float: left;
     padding-top: 10px;
 }
+
 .left-image-resize-3 img {
     width: 800px;
     height: 500px;
     float: left;
     padding-top: 10px;
 }
-
-
-
