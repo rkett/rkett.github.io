@@ -12,6 +12,25 @@ h1 {
 * ID Selectors
  */
 
+
+#diamond-narrow {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 70px solid red;
+	position: relative;
+	top: -50px;
+}
+#diamond-narrow:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 70px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid red;
+}
+
 /*
 * Class Selectors
  */
@@ -20,5 +39,10 @@ h1 {
 }
 
 .top-div {
-	padding: 12%;
+	padding-top: 10%;
 }
+
+.background-image {
+	background-image: url(../images/japan.png);
+}
+
