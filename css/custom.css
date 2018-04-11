@@ -1,0 +1,24 @@
+/* Custom CSS */
+
+/*
+* Element Selectors
+*/
+
+h1 {
+	color: #e65100;
+}
+
+/*
+* ID Selectors
+ */
+
+/*
+* Class Selectors
+ */
+.top-image {
+	border-radius: 5px;
+}
+
+.top-div {
+	padding: 12%;
+}
