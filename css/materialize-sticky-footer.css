@@ -1,0 +1,14 @@
+/* 
+* Materialize Sticky Footer Requirement 
+* See: http://archives.materializecss.com/0.100.2/footer.html
+*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
