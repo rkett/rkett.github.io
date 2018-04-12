@@ -18,23 +18,23 @@
                 <a class="navbar-item" role="button" href="#" >RK</a>
                 <!-- Required To Be Last Element of navbar-brand -->
                 <!-- Not my JS, will change over to it's own file. -->
-                <div class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
-
-                <!--<div class="navbar-burger" data-target="burger-target" role="button" aria-label="menu" aria-expanded="false">-->
+                <div id="burger" class="navbar-burger" onclick="burger_drop()" role="button" aria-label="menu">
                     <!-- These Produce The Burger (magic?) -->
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </div>
             </div>
-                <div class="navbar-menu" aria-label="menu">
-                    <div class="navbar-start">
-                        <a class="navbar-item" role="button" href="#">Home</a>
-                        <a class="navbar-item" role="button" href="#">Portfolio</a>
-                    </div>
-                    <div class="navbar-end"></div>
+            <div id="menu" class="navbar-menu" aria-label="menu">
+                <div class="navbar-start">
+                    <a class="navbar-item"  role="button" href="#">Home</a>
+                    <a class="navbar-item" role="button" href="#">Portfolio</a>
                 </div>
+                <div class="navbar-end"></div>
+            </div>
         </nav>
+        <!-- Local JS -->
+        <script src="burger-dropdown.js"></script>
         <!-- JS CDNs -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </body>
