@@ -8,16 +8,18 @@
         <!-- Responsive Viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
+        <!-- Local CSS -->
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
         <!-- CSS CDNs -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
     </head>
     <!--Start of Body -->
     <body>
-        <nav class ="navbar" role="navigation" aria-label="main navigation">
+        <nav class ="navbar is-light" role="navigation" aria-label="main navigation">
             <div class="navbar-brand" aria-label="brand logo">
-                <a class="navbar-item" role="button" href="#" >RK</a>
-                <!-- Required To Be Last Element of navbar-brand -->
-                <!-- Not my JS, will change over to it's own file. -->
+                <a class="navbar-item" role="button" href="#">
+                    <svg id="hero-svg" viewBox="0 0 734 534" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M367.017 3.072l361.54 529.144H5.482L367.017 3.072z" fill="#ff9700"/><path d="M366.858 2.498l218.668 320.04H148.192L366.858 2.498z" fill="#fc0"/><path d="M195.608 255.369l100.447 147.013H95.16L195.608 255.37z" fill="#ff9700"/><path d="M305.29 230.907L405.735 377.92H204.843l100.446-147.013z" fill="#ff9700"/><path d="M424.092 230.074L524.54 377.087H323.646l100.446-147.013z" fill="#ff9700"/><path d="M533.18 248.293l100.447 147.014H432.733L533.18 248.293z" fill="#ff9700"/><path d="M363.687 363.938L475.41 530.813H251.966l111.721-166.875z"/><path d="M363.435 361.996l111.851 115.777H251.585l111.85-115.777z" fill-opacity=".463"/><path fill-opacity=".463" d="M253.077 477.644h221.808v54.274H253.077z"/><path d="M.002 532.426L368.636.273s-245.47 522.32-242.462 529.664c3.01 7.344-126.172 2.489-126.172 2.489z" fill="#e0ff03" fill-opacity=".647"/><path d="M733.354 532.152L364.72 0S610.19 522.32 607.182 529.664c-3.01 7.344 126.172 2.488 126.172 2.488z" fill="#7d716a" fill-opacity=".263"/></svg>
+                </a>
                 <div id="burger" class="navbar-burger" onclick="burger_drop()" role="button" aria-label="menu">
                     <!-- These Produce The Burger (magic?) -->
                     <span aria-hidden="true"></span>
@@ -33,6 +35,59 @@
                 <div class="navbar-end"></div>
             </div>
         </nav>
+
+        <!-- Hero Start -->
+        <section class="hero is-dark is-medium is-bold">
+            <div class="hero-body">
+                <div class="container">
+                        <h1 class="title">
+                            Ross Kett
+                        </h1>
+                        <h2 class="subtitle">
+                            Explorer /// Learner /// Designer
+                        </h2>
+                    </div>
+                </div>
+        </section>
+
+        <!--Hero Chevron-->
+        <section>
+            <svg id="hero-chevron" viewBox="0 0 815 226" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path d="M0 0v144.03l407.368 81.119V6.966"/>
+                <path d="M814.617 0v144.03l-407.369 81.119V6.966"/>
+            </svg>
+        </section>
+
+        <!-- About Me -->
+        <section class="section is-medium">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-quarter">
+                    </div>
+                    <div class="column is-half">
+                        <h1 class="title">About Me</h1>
+                        <h2 class="subtitle">Professional /// Casual</h2> 
+                        <p>On a professional level, I have a BSc.H. from the University of Guelph, a passion for learning, design, and problem solving. I am currently teaching myself wed development, taking the top down approach towards with the goal of using more complex systems and understanding all aspects of the process.</p>
+                        <p class="level"></p>
+                        <p>On the casual side of design, I enjoy photomanipulation, vector design, livestreaming, and video creation. Some of my other hobbies include: hockey, snowboarding, competitive gaming, and camping.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Hero Chevron-->
+        <section>
+            <svg class="is-chevron" viewBox="0 0 815 226" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <g transform="matrix(.75 0 0 .75 -452.949 -215.831)">
+                    <clipPath id="a"><path d="M603.932 409.548h1086.16v178.425H603.932z"/>
+                    </clipPath>
+                    <g clip-path="url(#a)">
+                        <path d="M603.932 287.774v192.04l543.158 108.159v-290.91"/><path d="M1690.088 287.774v192.04L1146.93 587.973v-290.91"/>
+                    </g>
+                </g>
+            </svg>
+        </section>
+
         <!-- Local JS -->
         <script src="js/burger-dropdown.js"></script>
         <!-- JS CDNs -->
