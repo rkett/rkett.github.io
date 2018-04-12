@@ -8,3 +8,14 @@
 	width: 50px;
 	height: 50px;
 }
+
+#hero-chevron {
+	position: absolute;
+	margin-top: -17.5%;
+	z-index: -1;
+}
+
+.is-chevron {
+	position: absolute;
+	margin-top: -17.5%;
+}
