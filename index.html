@@ -1,15 +1,41 @@
 <!DOCTYPE html>
+<!-- English HTML Document -->
 <html lang="en">
     <!-- Start of Head -->
     <head>
-        <!-- Set Standard Text Encoding -->
+        <!-- uft-8 Text Encoding -->
         <meta charset="utf-8">
-        <title>RK</title>
+        <!-- Responsive Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
         <!-- CSS CDNs -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
     </head>
     <!--Start of Body -->
     <body>
-        <p> Hello World </p>
+        <nav class ="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand" aria-label="brand logo">
+                <a class="navbar-item" role="button" href="#" >RK</a>
+                <!-- Required To Be Last Element of navbar-brand -->
+                <!-- Not my JS, will change over to it's own file. -->
+                <div id="burger" class="navbar-burger" onclick="burger_drop()" role="button" aria-label="menu">
+                    <!-- These Produce The Burger (magic?) -->
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </div>
+            </div>
+            <div id="menu" class="navbar-menu" aria-label="menu">
+                <div class="navbar-start">
+                    <a class="navbar-item"  role="button" href="#">Home</a>
+                    <a class="navbar-item" role="button" href="#">Portfolio</a>
+                </div>
+                <div class="navbar-end"></div>
+            </div>
+        </nav>
+        <!-- Local JS -->
+        <script src="burger-dropdown.js"></script>
         <!-- JS CDNs -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </body>
 </html>
