@@ -10,12 +10,16 @@
 }
 
 #hero-chevron {
-	position: absolute;
+	position: relative;
 	margin-top: -17.5%;
 	z-index: -1;
+	height: auto;
+	width: 100%;
+	display: block;
 }
 
 .is-chevron {
-	position: absolute;
-	margin-top: -17.5%;
+	position: relative;
+	display: block;
+	width: auto;
 }
